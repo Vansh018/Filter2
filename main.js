@@ -28,7 +28,9 @@ function gotPoses(results)
     }
 }
 
-function draw(){}
+function draw(){
+    image(video, 0, 0, 640, 480);
+}
 
 function take_snapshot(){
     save('myFilterImage.png'); 
